@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { UserComponent } from './user/user.component';
 import { HighlightColorDirective } from './custom-directives/highlight-color.directive';
+import { DisplayDirective } from './custom-directives/display.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     UserComponent,
-    HighlightColorDirective
+    HighlightColorDirective,
+    DisplayDirective
   ],
   imports: [
     BrowserModule
