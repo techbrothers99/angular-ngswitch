@@ -1,5 +1,9 @@
 <h1 class="text-center">Welcome to Angular</h1>
-<div class="text-center" *appDisplay="display">
-   This is custom structural Directive.
-   Displayed only if display property is true.
+<div class="text-center" [ngSwitch]="value">
+    <div *ngSwitchCase="1">This is 1</div>
+    <div *ngSwitchCase="10">This is 10</div>
+    <div *ngSwitchCase="100">This is 100</div>
+    <div *ngSwitchCase="1000">This is 1000</div>
+    <div *ngSwitchCase="10000">This is 10000</div>
+    <div *ngSwitchDefault>This is Default</div>
 </div>

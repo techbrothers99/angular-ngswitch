@@ -7,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UserComponent implements OnInit {
 
-  display = false;
+  value = 10;
+  // value = 1000;
+  // value = 0;
 
   constructor() { }
 
