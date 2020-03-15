@@ -1,5 +1,7 @@
 <h1 class="text-center">Welcome to Angular</h1>
 <div class="text-center">
     Welcome to Angular, this is custom directive and
-    <span appHighlightColor>highlights</span> text color.
+    <span appHighlightColor [defaultColor]="'green'" [onHoverColor]="'orange'">
+        highlights text color.
+    </span> 
 </div>
